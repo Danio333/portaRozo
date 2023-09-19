@@ -1,0 +1,40 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    width: 83vw;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  #enlaces {
+    width: 1vw;
+    height: 5vh;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 40px;
+    box-shadow: 5px 5px 50px 5px red;
+  }
+
+
+  #enlaces {
+    display: flex;
+    flex-direction: row;
+    list-style: none; 
+  }
+  
+
+  #enlaces li a{
+    margin: 0 10px; 
+    color: red;
+    font-size: 20px;
+  }
+  
